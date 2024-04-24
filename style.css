@@ -21,7 +21,7 @@ nav{
  display: flex;
  justify-content: space-between;
  z-index: 1;
- background-color:black;
+ background-color:rgb(7, 4, 11);
  position: fixed;
  top: 5px;
  width: 82%;
@@ -140,6 +140,7 @@ color: black;
    text-align: center;
    padding-top: 100px;
    padding-bottom: 100px;
+   background-color: #f3f1f4;
 
 }
 .services h1{
@@ -151,7 +152,7 @@ color: black;
  
 }
 .service{
-   border:1px solid black;
+   border:1px solid rgb(18, 4, 4);
    width: 25%;
    border-radius: 20px;
 }
@@ -161,14 +162,14 @@ color: black;
 
 }
 .footer-section{
-   background-color:#131022 ;
+  /* flex:1; */
+   /* justify-content: space-between; */
+   /* gap: 5px; */
+   background-color:#140033 ;
    color:white;
    width: 100%;
    height:100vh;
    position: relative;
-   /* text-align: center; */
-   /* justify-content: center; */
-   /* padding: 30px; */
    padding-top: 100px;
    padding-bottom: 100px;
 }
@@ -179,22 +180,24 @@ color: black;
   
 }
 .footer{
-   display: flex;
-   justify-content: space-around;
+    display: flex;
+   justify-content: space-around; 
 }
 .footer-item{
    justify-content: center;
    text-align: center;
    font-size: 30px;
-   color:black;
+   color:rgb(4, 3, 3);
    background-color: #fff;
    height: 300px;
    width: 300px;
+   border-radius: 30px;
 }
 .footer-item p{
-   color:black;
+   /* color:black; */
+   border: 1px solid rgb(1, 0, 0);
+   border-radius: 0px;
 }
-.footer-item ul li{
-   color:black;
-   font-size: 20px;
+.h6{
+   font-size: 12px;
 }
